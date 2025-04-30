@@ -1,0 +1,110 @@
+*{
+    
+    font-family: 'Fonte Ford' , sans-serif;
+                                                
+}
+#cabecalho{
+    width: 100%;
+    height: 6%;
+    background-color: #fafcff;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+  
+}
+#menu a{
+    text-decoration: none;
+    color: #1351d8;
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px;
+}
+#menu{
+    text-decoration: none;
+    color: #1351d8;
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px;
+    justify-content: center;
+    width: 60%;
+
+ }
+
+
+#logo{
+    width: 30%;
+    height: 50px;
+    border-radius: 50%;
+    align-items: left;
+    justify-content: left;
+    position: left;
+    top: 10px;
+    position: fixed left;
+}
+
+
+#rodape{
+    width: 100%;
+    height: 6%;
+    background-color: #1b357e;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    position: fixed;;
+    bottom: 0px;
+    position: fixed;
+
+}
+
+#logo-rodape{
+    width: 30%;
+    height: 40px;
+    border-radius: 50%;
+    align-items: right;
+    justify-content: right;
+    margin-left: 60%;
+    position: right;
+    position: fixed right;
+}
+
+
+#redes-sociais{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: left;
+    bottom: 0px;
+}   
+
+#redes-sociais img{
+    width: 30px;
+    height: 30px;
+    align-items: left;
+    justify-content: left;
+    position: left;
+    top: 10px;
+    position: fixed left;
+    
+}
+
+#imagem-principal{
+  width: 80%;
+  height: 80%;
+  justify-items: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding: 5px;
+}
+
+
+
