@@ -62,14 +62,27 @@
 }
 
 #logo-rodape{
-    width: 30%;
+    width: 20%;
     height: 40px;
     border-radius: 50%;
     align-items: right;
     justify-content: right;
-    margin-left: 60%;
+    margin-left: 30%;
     position: right;
     position: fixed right;
+}
+#copyright{
+    width: 50%;
+    height: 5%;
+    background-color: #1b357e;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    bottom: 0px;
+    position: center;
+    position: fixed center;
 }
 
 
