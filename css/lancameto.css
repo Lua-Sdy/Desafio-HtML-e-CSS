@@ -7,7 +7,7 @@
 
 }
 
-#produtos{
+.produtos{
     width: 100%;
     height: 100%;
     display: flex;
@@ -16,8 +16,60 @@
     margin: 30px;
     flex-wrap: wrap;;
 }
-
-#info-produto{
+ 
+.produtos label {
+    color: #5300ec;
+    border: 2px solid transparent;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+.produtos input[type="checkbox"]:checked + img{
+    border: 2px solid blue; /* ou outro estilo de destaque */
+  }
+.produtos p{
+    color: #171617;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.produtos button{
+    background-color:#1351d8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.produtos button:hover{
+    background-color: #0f3c8a;
+}
+.produtos button:active{
+    background-color: #0f3c8a;
+    transform: translateY(2px);
+}
+#button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+    
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    
+}
+.info-produto{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,27 +77,10 @@
     flex-wrap: wrap;
     
 }
-#info-produto img{
+.info-produto img{
     width: 100%;
     height: 100%;
     max-width: 300px;
     max-height: 300px;
     border-radius: 10px;
-}
-label {
-    color: #5300ec;
-    border: 2px solid transparent;
-    padding: 10px;
-    cursor: pointer;
-    margin-left: 10px;
-  }
-  input[type="checkbox"]:checked + img{
-    border: 2px solid blue; /* ou outro estilo de destaque */
-  }
-p{
-    color: #171617;
-    border: 2px solid transparent;
-    cursor: pointer;
-    margin-left: 20px;
-    font-family: 'Poppins', sans-serif;
 }

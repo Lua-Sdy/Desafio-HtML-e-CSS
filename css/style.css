@@ -1,7 +1,11 @@
 *{
     
     font-family: 'Fonte Ford' , sans-serif;
+    margin: 0px;
                                                 
+}
+body{
+    height: 100vh;
 }
 #cabecalho{
     width: 100%;
@@ -54,10 +58,10 @@
     font-size: 20px;
     padding: 10px;
     align-items: center;
-    position: fixed;;
-    bottom: 0px;
     position: fixed;
-
+    bottom: 0px;
+    margin-top: 15%;
+    
 }
 
 #logo-rodape{

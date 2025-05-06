@@ -38,53 +38,72 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-        <div id="info-produto">
+        <!--- Toddos os carros dentro so section -->
+        <section class="produtos">
 
+
+            <!--- Foi criadouam div para cada carro e uma div para as informações --->
+            <!--- Carro 1 ---> 
             <div id="info-produtos">
                 <img src="/img/XL Cabine.jpg" alt="Ford XL Cabine">
 
-                <div style="display: flex; flex-direction: row;">
+                <!--- Informações do carro --->
+                <div class="info">
                     <input style="scale: 2.6;" type="checkbox">
-                    <div>
-                        <label for="XL-Cabine">XL Cabine Simples 2.2 Diesel 4x4 MT 2022</label>
-                        <br>
-                        <p>R$ 195.990,00</p>
-                    </div>
+
+                    <label for="XL-Cabine">XL Cabine Simples 2.2
+                         <br> Diesel 4x4 2022 <br>
+                        <font color="black">R$ 195.990,00</font>
+                    </label>
+                    <img style="scale: 1.2; margin-left: 20px;" src="/img/info.png" alt="">
+
                 </div>
 
             </div>
-
+            <!--- Carro 2 --->
             <div id="info-produtos">
                 <img src="/img/xls 2.2 diesel.jpg" alt="Ford XLS 2.2 diesel">
-                <div style="display: flex; flex-direction: row;">
+
+                <!--- Informações do carro --->
+                <div class="info">
                     <input style="scale: 2.6;" type="checkbox">
-                    <div>
-                        <label for="Xl 2.2 diesel">XLS 2.2 Diesel 4x4 AT 2022</label>
-                        <br>
-                        <p>R$ 219.990,00</p>
-                    </div>
+
+                    <label for="Xl 2.2 diesel">XLS 2.2 Diesel 4x4 AT 2022 <br>
+                        <font color="black">R$ 219.990,00</font>
+                    </label>
+                    <img style="scale: 1.2; margin-left: 20px;" src="/img/info.png" alt="">
                 </div>
             </div>
+
+            <!--- Carro 3 --->
             <div>
                 <img src="/img/storm.jpg" alt="Ford Strom">
-                <div style="display: flex; flex-direction: row;">
+
+                <!--- Informações do carro --->
+                <div class="info">
                     <input style="scale: 2.6;" type="checkbox">
-                    <div>
-                        <label for="Xl 2.2 diesel">Raptor 3.0 Diesel 4x4 AT 2022</label>
-                        <br>
-                        <p>R$ 448.600,00</p>
-                    </div>
+
+                    <label for="Xl 2.2 diesel">Raptor 3.0 Diesel 4x4 AT 2022 <br>
+                        <font color="black">R$ 448.600,00</font>
+                    </label>
+                    <img style="scale: 1.2; margin-left: 20px;" src="/img/info.png" alt="">
+
                 </div>
             </div>
-        </div>
+
+            <div id="button">
+                <button>Comparar carros</button>
+            </div>
+        </section>
 
 
 
     </main>
 
+    
     <footer id="rodape">
 
-        <div id="redes-sociais">
+        <section id="redes-sociais">
             <p>Redes Sociais</p>
             <a href="https://www.facebook.com/FordBrasil" target="_blank"><img src="/img/facebook-50.png"
                     alt="facebook Ford"></a>
@@ -92,7 +111,7 @@
                     alt=""></a>
             <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="/img/instagram-logo-50.png"
                     alt="instagram"></a>
-        </div>
+        </section>
 
         <div id="copyright">
             <p>Ford Motor Company</p>
