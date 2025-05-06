@@ -36,15 +36,14 @@
 
 #logo{
     width: 30%;
-    height: 50px;
     border-radius: 50%;
     align-items: left;
     justify-content: left;
     position: left;
     top: 10px;
     position: fixed left;
-}
 
+}
 
 #rodape{
     width: 100%;
