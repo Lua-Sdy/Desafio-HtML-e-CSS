@@ -1,6 +1,4 @@
-main{
-    height: 100vh;
-}
+
 #play{
     width: 100%;
     height: 70%;
@@ -36,7 +34,17 @@ main{
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
 }
-.produtos button{
+
+.button{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;  
+    
+}
+.button button{
     background-color:#1351d8;
     color: white;
     border: none;
@@ -45,21 +53,12 @@ main{
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
 }
-.produtos button:hover{
+.button button:hover{
     background-color: #0f3c8a;
 }
-.produtos button:active{
+.button button:active{
     background-color: #0f3c8a;
     transform: translateY(2px);
-}
-#button{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    position: center;
-    
 }
 .info{
     display: flex;
@@ -85,6 +84,7 @@ main{
 }
 
 @media screen and (max-width: 768px) {
+  
     .produtos{
         flex-direction: column;
         align-items: center;
