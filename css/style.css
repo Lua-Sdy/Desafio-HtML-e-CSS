@@ -1,15 +1,23 @@
-*{
-    
-    font-family: 'Fonte Ford' , sans-serif;
+* {
+
+    font-family: 'Fonte Ford', sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-                                                
+
 }
-body{
+
+body {
     height: 100vh;
 }
-#cabecalho{
+
+hr {
+    opacity: 0.5;
+
+}
+
+
+#cabecalho {
     width: 100%;
     height: 10%;
     background-color: #fafcff;
@@ -18,40 +26,67 @@ body{
     font-size: 30px;
     padding: 10px;
     align-items: center;
-    position: fixed;
-  
+    justify-content: center;
+
+
 }
-#menu a{
+
+#menu a {
     text-decoration: none;
     color: #1351d8;
     font-size: 30px;
     padding: 15px;
     margin: 10px;
 }
-#menu{
+
+#menu {
     text-decoration: none;
     color: #1351d8;
     font-size: 30px;
     padding: 15px;
     margin: 10px;
     justify-content: center;
-    width: 60%;
-
- }
-
-
-#logo{
-    width: 30%;
-    border-radius: 50%;
-    align-items: left;
-    justify-content: left;
-    position: left;
-    top: 10px;
-    position: fixed left;
 
 }
 
-#rodape{
+#logo {
+    width: 10%;
+    border-radius: 50%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.imagem-inicial {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem-inicial img {
+    width: 80%;
+    height: 80%;
+    border-radius: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-inicial p {
+    padding: 5px;
+    flex-direction: column;
+}
+
+#rodape {
     width: 100%;
     height: 10%;
     background-color: #1b357e;
@@ -63,35 +98,30 @@ body{
     position: fixed;
     bottom: 0px;
     margin-top: 15%;
-    
+
 }
 
-#logo-rodape{
+#logo-rodape {
     width: 20%;
-    height: 40px;
     border-radius: 50%;
-    align-items: right;
     justify-content: right;
     margin-left: 30%;
-    position: right;
-    position: fixed right;
+
 }
-#copyright{
+
+#copyright {
     width: 50%;
     height: 5%;
-    background-color: #1b357e;
     display: flex;
     color: white;
     font-size: 20px;
     padding: 10px;
     align-items: center;
     bottom: 0px;
-    position: center;
-    position: fixed center;
 }
 
 
-#redes-sociais{
+#redes-sociais {
     width: 100%;
     height: 5%;
     display: flex;
@@ -101,9 +131,9 @@ body{
     align-items: center;
     justify-content: left;
     bottom: 0px;
-}   
+}
 
-#redes-sociais img{
+#redes-sociais img {
     width: 30px;
     height: 30px;
     align-items: left;
@@ -111,18 +141,71 @@ body{
     position: left;
     top: 10px;
     position: fixed left;
-    
-}
 
-#imagem-principal{
-  width: 80%;
-  height: 80%;
-  justify-items: center;
-  align-items: center;
-  margin-left: 10%;
-  margin-top: 5%;
-  padding: 5px;
 }
 
 
 
+
+
+/*=== Responsividade ===*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    #cabecalho {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo {
+        position: relative;
+    }
+
+
+
+    #menu {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #menu a {
+
+        font-size: 25px;
+
+    }
+
+    #logo {
+        width: 30%;
+        border-radius: 50%;
+        align-items: left;
+        justify-content: left;
+        position: left;
+        top: 10px;
+        position: fixed left;
+    }
+
+    #rodape {
+        margin-top: 0px;
+        height: 10%;
+    }
+
+    #rodape p {
+        font-size: 15px;
+    }
+
+    #rodape img {
+
+        height: 5%;
+    }
+
+    #logo-rodape {
+        width: auto;
+        margin-left: 1px;
+
+    }
+
+
+
+}

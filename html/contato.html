@@ -13,7 +13,7 @@
 
 <body>
     <header id="cabecalho">
-        <div id="logo"> <img src="/img/logo-ford-256.png" alt="Logo Ford" id="logo"> </div>
+        <div id="logo"> <img src="/img/logo-ford-256.png" alt="Logo Ford"> </div>
 
         <nav id="menu">
             <ul>
@@ -26,14 +26,18 @@
 
     </header>
 
+    <hr>
+
     <main>
 
+
+        <div id="imagem">
+            <img src="/img/xls 2.2 diesel.jpg" alt="Ford XLS 2.2 Diesel" id="imagem-principal">
+        </div>
+
         <div class="principal">
-            <div >
-                <img style="scale: 2.0 ;"  src="/img/xls 2.2 diesel.jpg" alt="Ford XLS 2.2 Diesel" id="imagem-principal">
-            </div>
-            
-            <form>
+
+            <form id="formulario">
                 <label style="margin-right:220px; font-family: Arial; font-size: 20px;  " for="texto">Sobre Você</label>
                 <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
                 <input type="email" id="email" name="email" placeholder="Email" required>
@@ -46,12 +50,11 @@
                     <option value="Reclamacao">Reclamação</option>
                     <option value="Solicitacao">Solicitação</option>
                 </select>
-                
+
                 <button>Enviar</button>
-                
+
             </form>
         </div>
-
 
 
     </main>
@@ -69,8 +72,9 @@
         </section>
 
         <div id="copyright">
-            <p>Ford Motor Company</p>
-            <p>&copy;</p>
+
+            <p>&copy; Ford Motor Company</p>
+
         </div>
 
         <div id="logo-rodape">
