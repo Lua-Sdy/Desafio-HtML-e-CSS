@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!--- Header --->
     <header id="cabecalho">
         <div id="logo">
             <a href="/html/index.html"><img src="/img/logo-ford-256.png" alt="Logo Ford"></a>
@@ -32,11 +33,12 @@
 
     <main>
 
-
+        <!--- Img carro  ---> 
         <div id="imagem">
             <img src="/img/xls 2.2 diesel.jpg" alt="Ford XLS 2.2 Diesel" id="imagem-principal">
         </div>
 
+        <!--- Formulário  --->
         <div class="principal">
 
             <form id="formulario">
@@ -44,14 +46,17 @@
                 <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
                 <input type="email" id="email" name="email" placeholder="Email" required>
                 <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
-                <input type="sobrenome" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
 
+                <!--- Tipo de Mensagem  --->
                 <select id="tipo-contato" name="tipo-contato" required>
                     <option value="Selecione o tipo de contato" disabled selected>Selecione o tipo de contato</option>
                     <option value="Elogio">Elogio</option>
                     <option value="Reclamacao">Reclamação</option>
                     <option value="Solicitacao">Solicitação</option>
                 </select>
+                
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui"
+                    required></textarea>
 
                 <button>Enviar</button>
 
@@ -63,24 +68,29 @@
 
    <footer class="rodape">
 
+        <!--- Redes sociais footer --->
         <section class="redes-sociais">
             <p>Redes Sociais</p>
             <a href="https://www.facebook.com/FordBrasil" target="_blank"><img src="/img/facebook-50.png"
                     alt="facebook Ford"></a>
-            <a href="https://www.youtube.com/user/FordBrasil" target="_blank"> <img src="/img/youtube-squared-50.png" alt=""></a>
+            <a href="https://www.youtube.com/user/FordBrasil" target="_blank"> <img src="/img/youtube-squared-50.png"
+                    alt=""></a>
             <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="/img/instagram-logo-50.png"
-                alt="instagram"></a>
+                    alt="instagram"></a>
         </section>
 
+        <!--- copyright footer --->
         <div class="copyright">
 
             <p>&copy; Ford Motor Company</p>
-            
+
         </div>
 
+        <!--- Logo footer --->
         <div class="logo-rodape">
             <img src="/img/ford-96.png" alt="logo Ford">
         </div>
+
     </footer>
 
 </body>

@@ -6,6 +6,7 @@ main{
     height: 100vh;
 }
 
+/* === Css div form ===*/
 .principal{
     
     display: flex;
@@ -22,6 +23,7 @@ main{
     align-items: center;
     width: 40%;
 }
+/* === input ===*/
 .principal form input{
     width: 50%;
     padding: 10px;
@@ -29,6 +31,9 @@ main{
     border: 1px solid #131212;
     border-radius: 5px;
 }
+
+/* === label ===*/
+
 .principal label{
     width: 53%;
     padding: 10px;
@@ -36,6 +41,7 @@ main{
     font-family: Verdana,;
     font-size: 30px;
 }
+/* === Botão ===*/
 .principal  button{
     width: 50%;
     padding: 10px;
@@ -44,22 +50,33 @@ main{
     border-radius: 5px;
     background-color:  #1351d8;
 }
-.principal  button:hover{
-    background-color: #0353ff;
-    cursor: pointer;
+
+.principal button:hover{
+    background-color: #0f3c8a;
+}
+.principal button:active{
+    background-color: #0f3c8a;
+    transform: translateY(2px);
 }
  #imagem img{
     width: 140%;
-   
-  
 }
 
+
+/* === Css form ===*/
 #formulario{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
+}
+#formulario textarea{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #131212;
+    border-radius: 5px;
 }
 
 #tipo-contato {
@@ -82,11 +99,14 @@ main{
     background-color: #e0e0e0; /* Efeito hover nas opções (limitado) */
 }
 
+
 /* === responsividade ===*/
 @media (max-width: 768px) {
     .principal {
         width: 100%;
     }
+
+
    
     main{
         flex-direction: column;
